@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:auto;
     
 }
 
@@ -17,16 +18,28 @@
     margin-top: 10px;
 }
 .lists ul li a{
-    margin:10px;
+    margin:5px;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
 }
 .lists ul li{
  margin-bottom: 26px;
 }
-#home::before{
-    height: 80%;
+/* #home::before{
+    height: auto;
+    width:auto;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    
+
 }
+#home{
+    height: auto;
+    width:auto; */
+
+    #home{
+        height: 100%;
+    }
 #services{
     display: flex;
     flex-wrap: wrap;
@@ -50,8 +63,9 @@
     height: 230px;
 }
 .client-item img{
- height: 70px;
- width:70px;
+ height: 40px;
+ width:40px;
+ flex-wrap: wrap;
 
 }
 #contact::before{
